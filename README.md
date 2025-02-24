@@ -1,1 +1,1 @@
-# Secure-Log-Anonymizor
+# Security Log Anonymizer
