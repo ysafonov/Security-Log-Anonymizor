@@ -58,45 +58,19 @@ As part of this work, we performed the mapping of three widely-used SIEM meta ke
 
 
 **Table: Selected meta keys for anonymization from NetWitness XDR.**
+<div style="text-align: center;">
+    <img src="netwitness.png" alt="Flowchart diagram of the anonymization tool." width="700"/>
+</div>
 
-| **Selected meta keys for anonymization from NetWitness XDR** | **Column 1**     | **Column 2**     | **Column 3**     |
-| ---------------------------------------------------------- | --------------- | ---------------- | ---------------- |
-| `ad.domain.dst`      | `device.ip`       | `ip.src`         |
-| `ad.domain.src`      | `device.ipv6`     | `ipv6.dst`       |
-| `ad.username.dst`    | `device.name`     | `ipv6.src`       |
-| `ad.username.src`    | `domain.dst`      | `org.dst`        |
-| `alias.host`         | `domain.src`      | `org.src`        |
-| `alias.ip`           | `email`           | `paddr`          |
-| `alias.ipv6`         | `email.dst`       | `password`       |
-| `alias.mac`          | `email.src`       | `tunnel.ip.dst`  |
-| `city.dst`           | `eth.dst`         | `tunnel.ip.src`  |
-| `city.src`           | `eth.src`         | `tunnel.ipv6.dst`|
-| `country.dst`        | `fullname`        | `tunnel.ipv6.src`|
-| `country.src`        | `ip.addr`         | `user.dst`       |
-| `device.host`        | `ip.dst`          | `usr.src`        |
-| `username`           |                   |                  |
+**Table: Selected meta keys for anonymization from IBM QRadar.**
+<div style="text-align: center;">
+    <img src="qradar.png" alt="Flowchart diagram of the anonymization tool." width="700"/>
+</div>
 
-
-
-**Table: Selected meta keys for anonymization from QRadar.**
-
-| NetWitness XDR Meta Key  | QRadar Meta Key        | Description      |
-|--------------------------|------------------------|------------------|
-| `ad.domain.dst`           | `device.ip`            | Source IP address |
-| `ad.domain.src`           | `device.ipv6`          | Destination IP address |
-| `ad.username.dst`         | `device.name`          | Hostname         |
-| `ad.username.src`         | `domain.dst`           | Destination domain |
-| `alias.host`              | `domain.src`           | Source domain    |
-| `alias.ip`                | `email`                | Email address    |
-| `alias.ipv6`              | `email.dst`            | Destination email address |
-| `alias.mac`               | `email.src`            | Source email address |
-| `city.dst`                | `eth.dst`              | Destination Ethernet address |
-| `city.src`                | `eth.src`              | Source Ethernet address |
-| `country.dst`             | `fullname`             | Full name        |
-| `country.src`             | `ip.addr`              | IP address       |
-| `device.host`             | `ip.dst`               | Destination IP address |
-| `username`                | `usr.src`              | Source username  |
-
+**Table: Selected meta keys for anonymization from Elastic Stack.**
+<div style="text-align: center;">
+    <img src="elk.png" alt="Flowchart diagram of the anonymization tool." width="700"/>
+</div>
 
 In the future, the tool can be extended to support more popular SIEM systems. However, this will require a similar category mapping process. Even more exciting results could be achieved by training an artificial intelligence model to recognize newly defined meta keys based on the existing list.
 
