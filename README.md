@@ -43,9 +43,9 @@ The code is organized into several Python files for better maintainability, clar
 
 Technical representation of the program workflow is given below.
 
-<div style="text-align: center;">
+<p align="center">
     <img src="images/flow-chart.png" alt="Flowchart diagram of the anonymization tool." width="700"/>
-</div>
+</p>
 
 
 ## Anonymization of Sensitive Data Using Meta Keys
@@ -57,20 +57,22 @@ To ensure that the data maintains its original format while only the values are 
 As part of this work, we performed the mapping of three widely-used SIEM meta keys to more general categories. These tables provide an overview of meta key categorization, including a brief description of each data category and the associated risk.
 
 
-**Table 1: Selected meta keys for anonymization from NetWitness XDR.**
-<div style="text-align: center;">
+**Table 1: Selected meta keys for anonymization from `NetWitness XDR`.**
+<p align="center">
     <img src="images/netwitness.jpeg" alt="Flowchart diagram of the anonymization tool." width="600"/>
-</div>
+</p>
 
-**Table 2: Selected meta keys for anonymization from IBM QRadar.**
-<div style="text-align: center;">
+**Table 2: Selected meta keys for anonymization from `IBM QRadar`.**
+<p align="center">
     <img src="images/qradar.jpeg" alt="Flowchart diagram of the anonymization tool." width="600"/>
-</div>
+</p>
 
-**Table 3: Selected meta keys for anonymization from Elastic Stack.**
-<div style="text-align: center;">
+
+**Table 3: Selected meta keys for anonymization from `Elastic Stack`.**
+<p align="center">
     <img src="images/elk.jpeg" alt="Flowchart diagram of the anonymization tool." width="600"/>
-</div>
+</p>
+
 
 
 ## Future Prospects
