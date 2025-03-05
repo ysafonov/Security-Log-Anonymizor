@@ -57,7 +57,7 @@ To ensure that the data maintains its original format while only the values are 
 As part of this work, we performed the mapping of three widely-used SIEM meta keys to more general categories. These tables provide an overview of meta key categorization, including a brief description of each data category and the associated risk.
 
 
-**Table 1: Selected meta keys for anonymization from `NetWitness XDR`, `IBM QRadar` and `Elastic Stack`.**
+**Table 1: Selected meta keys for anonymization from `NetWitness XDR`, `IBM QRadar` and `Elastic`.**
 <p align="center">
     <img src="images/all.jpg" alt="Flowchart diagram of the anonymization tool." width="750"/>
 </p>
