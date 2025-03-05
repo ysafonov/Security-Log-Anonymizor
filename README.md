@@ -64,7 +64,7 @@ As part of this work, we performed the mapping of three widely-used SIEM meta ke
 
 **Table 2: Selected meta keys for anonymization and their categories.**
 <p align="center">
-    <img src="images/category.jpg" alt="Flowchart diagram of the anonymization tool." width="750"/>
+    <img src="images/category.jpg" alt="Flowchart diagram of the anonymization tool." width="900"/>
 </p>
 
 
