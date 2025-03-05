@@ -29,7 +29,14 @@ The program is developed in **Python 3.12.0** using the **Flask** development fr
 
 The tool’s primary goal is to actively search for predefined sensitive data in logs and replace those values with random ones. To ensure the tool's effectiveness for anonymization in artificial intelligence applications, the anonymization process must preserve the original data format to maintain the accuracy of AI training.
 
-In this tool, we focus on anonymizing **10 categories of security log data**, which are considered the most vulnerable in terms of data privacy. These categories are detailed in the following table.
+In this tool, we focus on anonymizing **10 categories of security log data**, which are considered the most vulnerable in terms of data privacy. 
+
+Technical representation of the program workflow is shown below.
+
+![Sensitive Log Data Categories](flow-chart.png)
+
+Mentioned categories are detailed in the following table.
+
 
 
 ## Future Prospects
