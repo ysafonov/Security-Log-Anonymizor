@@ -20,3 +20,15 @@ This tool is driven by the need to enhance AI applications in cybersecurity whil
 ## Future Prospects
 
 The tool is poised to become a critical asset in AI-driven security research and implementation, contributing to the development of effective and compliant solutions for advanced threat detection and strengthened security monitoring.
+
+## Authors
+
+- **Yehor Safonov**  
+  Faculty of Electrical Engineering and Communication, Brno University of Technology, Technická 3058/10, 61600 Brno, Czechia  
+  ORCID: [0000-0002-3549-2178](https://orcid.org/0000-0002-3549-2178)  
+  Email: [yehor.safonov@vut.cz](mailto:yehor.safonov@vut.cz)
+
+- **Ariela Stastna**  
+  The University of Law, 2 Bunhill Row, London EC1Y 8HQ, United Kingdom  
+  ORCID: [0009-0006-6013-6219](https://orcid.org/0009-0006-6013-6219)  
+  Email: [ariela.stastna95@law.ac.uk](mailto:ariela.stastna95@law.ac.uk)
