@@ -59,22 +59,23 @@ As part of this work, we performed the mapping of three widely-used SIEM meta ke
 
 **Table: Selected meta keys for anonymization from NetWitness XDR.**
 
-| **Selected meta keys for anonymization from NetWitness XDR** |
-| ---------------------------------------------------------- |
-| `ad.domain.dst` | `device.ip` | `ip.src` |
-| `ad.domain.src` | `device.ipv6` | `ipv6.dst` |
-| `ad.username.dst` | `device.name` | `ipv6.src` |
-| `ad.username.src` | `domain.dst` | `org.dst` |
-| `alias.host` | `domain.src` | `org.src` |
-| `alias.ip` | `email` | `paddr` |
-| `alias.ipv6` | `email.dst` | `password` |
-| `alias.mac` | `email.src` | `tunnel.ip.dst` |
-| `city.dst` | `eth.dst` | `tunnel.ip.src` |
-| `city.src` | `eth.src` | `tunnel.ipv6.dst` |
-| `country.dst` | `fullname` | `tunnel.ipv6.src` |
-| `country.src` | `ip.addr` | `user.dst` |
-| `device.host` | `ip.dst` | `usr.src` |
-| `username` | | |
+| **Selected meta keys for anonymization from NetWitness XDR** | **Column 1**     | **Column 2**     | **Column 3**     |
+| ---------------------------------------------------------- | --------------- | ---------------- | ---------------- |
+| `ad.domain.dst`      | `device.ip`       | `ip.src`         |
+| `ad.domain.src`      | `device.ipv6`     | `ipv6.dst`       |
+| `ad.username.dst`    | `device.name`     | `ipv6.src`       |
+| `ad.username.src`    | `domain.dst`      | `org.dst`        |
+| `alias.host`         | `domain.src`      | `org.src`        |
+| `alias.ip`           | `email`           | `paddr`          |
+| `alias.ipv6`         | `email.dst`       | `password`       |
+| `alias.mac`          | `email.src`       | `tunnel.ip.dst`  |
+| `city.dst`           | `eth.dst`         | `tunnel.ip.src`  |
+| `city.src`           | `eth.src`         | `tunnel.ipv6.dst`|
+| `country.dst`        | `fullname`        | `tunnel.ipv6.src`|
+| `country.src`        | `ip.addr`         | `user.dst`       |
+| `device.host`        | `ip.dst`          | `usr.src`        |
+| `username`           |                   |                  |
+
 
 
 **Table: Selected meta keys for anonymization from QRadar.**
