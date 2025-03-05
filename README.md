@@ -50,7 +50,7 @@ Technical representation of the program workflow is given below.
 
 ## Anonymization of Sensitive Data Using Meta Keys
 
-To effectively anonymize the detected sensitive values using meta keys, it is essential to perform the mapping of these meta keys. The meta keys were categorized into lists based on the type of data they represent and then mapped to more general data categories, as shown in **Table 1**, **Table 2** and **Table 3**. This approach simplifies the process, as many meta keys point to the same data category but use different names.
+To effectively anonymize the detected sensitive values using meta keys, it is essential to perform the mapping of these meta keys. The meta keys were categorized into lists based on the type of data they represent and then mapped to more general data categories, as shown in **Table 1** and **Table 2**. This approach simplifies the process, as many meta keys point to the same data category but use different names.
 
 To ensure that the data maintains its original format while only the values are changed, the generalized categories are further mapped to corresponding anonymization functions.
 
@@ -59,18 +59,12 @@ As part of this work, we performed the mapping of three widely-used SIEM meta ke
 
 **Table 1: Selected meta keys for anonymization from `NetWitness XDR`.**
 <p align="center">
-    <img src="images/netwitness.jpeg" alt="Flowchart diagram of the anonymization tool." width="600"/>
+    <img src="images/all.jpg" alt="Flowchart diagram of the anonymization tool." width="600"/>
 </p>
 
 **Table 2: Selected meta keys for anonymization from `IBM QRadar`.**
 <p align="center">
-    <img src="images/qradar.jpeg" alt="Flowchart diagram of the anonymization tool." width="600"/>
-</p>
-
-
-**Table 3: Selected meta keys for anonymization from `Elastic Stack`.**
-<p align="center">
-    <img src="images/elk.jpeg" alt="Flowchart diagram of the anonymization tool." width="600"/>
+    <img src="images/category.jpg" alt="Flowchart diagram of the anonymization tool." width="600"/>
 </p>
 
 
