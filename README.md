@@ -41,8 +41,6 @@ The code is organized into several Python files for better maintainability, clar
 - **`metakeys_config.py`**: This file defines classes for **Elasticsearch**, **RSANetWitness**, and **QRadar**. It applies to JSON logs and contains predefined meta keys for sensitive values, grouped into categories based on the type of data they refer to. The meta keys are organized in lists, making it easy to extend for future needs. Objects of these classes are used in `functions.py`.
 - **`config.py`**: Contains simple settings and information about the application, such as the IP address and port number. It also includes settings that allow the user to anonymize individual values by setting the desired data type to `True`. Keeping settings in a separate file provides clarity and makes it easy to adjust the default configurations if needed.
 
-*Note: This list is not exhaustive, and additional customized meta keys may appear. Sources for these keys include [NetWitness](#), [QRadar](#), and [Elastic Stack](#).*
-
 Technical representation of the program workflow is given below.
 
 <div style="text-align: center;">
@@ -50,7 +48,15 @@ Technical representation of the program workflow is given below.
 </div>
 
 
-Mentioned categories are detailed in the following table.
+## Anonymization of Sensitive Data Using Meta Keys
+
+To effectively anonymize the detected sensitive values using meta keys, it is essential to perform the mapping of these meta keys. The meta keys were categorized into lists based on the type of data they represent and then mapped to more general data categories, as shown in **Table \ref{category}**. This approach simplifies the process, as many meta keys point to the same data category but use different names.
+
+To ensure that the data maintains its original format while only the values are changed, the generalized categories are further mapped to corresponding anonymization functions.
+
+As part of this work, we performed the mapping of three widely-used SIEM meta keys to more general categories. The mapping is based on the contents of **Table \ref{rsa}** for **NetWitness XDR** and **QRadar**, and **Table \ref{el}** for **Elastic Stack**. These tables provide an overview of meta key categorization, including a brief description of each data category and the associated risk.
+
+In the future, the tool can be extended to support more popular SIEM systems. However, this will require a similar category mapping process. Even more exciting results could be achieved by training an artificial intelligence model to recognize newly defined meta keys based on the existing list.
 
 
 
