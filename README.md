@@ -72,8 +72,6 @@ As part of this work, we performed the mapping of three widely-used SIEM meta ke
     <img src="images/elk.jpeg" alt="Flowchart diagram of the anonymization tool." width="600"/>
 </div>
 
-In the future, the tool can be extended to support more popular SIEM systems. However, this will require a similar category mapping process. Even more exciting results could be achieved by training an artificial intelligence model to recognize newly defined meta keys based on the existing list.
-
 
 ## Future Prospects
 
