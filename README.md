@@ -59,17 +59,17 @@ As part of this work, we performed the mapping of three widely-used SIEM meta ke
 
 **Table: Selected meta keys for anonymization from NetWitness XDR.**
 <div style="text-align: center;">
-    <img src="images/netwitness.jpeg" alt="Flowchart diagram of the anonymization tool." width="700"/>
+    <img src="images/netwitness.jpeg" alt="Flowchart diagram of the anonymization tool." width="500"/>
 </div>
 
 **Table: Selected meta keys for anonymization from IBM QRadar.**
 <div style="text-align: center;">
-    <img src="images/qradar.jpeg" alt="Flowchart diagram of the anonymization tool." width="700"/>
+    <img src="images/qradar.jpeg" alt="Flowchart diagram of the anonymization tool." width="500"/>
 </div>
 
 **Table: Selected meta keys for anonymization from Elastic Stack.**
 <div style="text-align: center;">
-    <img src="images/elk.jpeg" alt="Flowchart diagram of the anonymization tool." width="700"/>
+    <img src="images/elk.jpeg" alt="Flowchart diagram of the anonymization tool." width="500"/>
 </div>
 
 In the future, the tool can be extended to support more popular SIEM systems. However, this will require a similar category mapping process. Even more exciting results could be achieved by training an artificial intelligence model to recognize newly defined meta keys based on the existing list.
