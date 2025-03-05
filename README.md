@@ -59,6 +59,26 @@ As part of this work, we performed the mapping of three widely-used SIEM meta ke
 
 **Table: Selected meta keys for anonymization from NetWitness XDR.**
 
+| **Selected meta keys for anonymization from NetWitness XDR** | | |
+| ---------------------------------------------------------- | --- | --- |
+| `ad.domain.dst` | `device.ip` | `ip.src` |
+| `ad.domain.src` | `device.ipv6` | `ipv6.dst` |
+| `ad.username.dst` | `device.name` | `ipv6.src` |
+| `ad.username.src` | `domain.dst` | `org.dst` |
+| `alias.host` | `domain.src` | `org.src` |
+| `alias.ip` | `email` | `paddr` |
+| `alias.ipv6` | `email.dst` | `password` |
+| `alias.mac` | `email.src` | `tunnel.ip.dst` |
+| `city.dst` | `eth.dst` | `tunnel.ip.src` |
+| `city.src` | `eth.src` | `tunnel.ipv6.dst` |
+| `country.dst` | `fullname` | `tunnel.ipv6.src` |
+| `country.src` | `ip.addr` | `user.dst` |
+| `device.host` | `ip.dst` | `usr.src` |
+| `username` | | |
+
+
+**Table: Selected meta keys for anonymization from QRadar.**
+
 | NetWitness XDR Meta Key  | QRadar Meta Key        | Description      |
 |--------------------------|------------------------|------------------|
 | `ad.domain.dst`           | `device.ip`            | Source IP address |
@@ -75,7 +95,6 @@ As part of this work, we performed the mapping of three widely-used SIEM meta ke
 | `country.src`             | `ip.addr`              | IP address       |
 | `device.host`             | `ip.dst`               | Destination IP address |
 | `username`                | `usr.src`              | Source username  |
-
 
 
 In the future, the tool can be extended to support more popular SIEM systems. However, this will require a similar category mapping process. Even more exciting results could be achieved by training an artificial intelligence model to recognize newly defined meta keys based on the existing list.
