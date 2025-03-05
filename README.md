@@ -54,10 +54,10 @@ To effectively anonymize the detected sensitive values using meta keys, it is es
 
 To ensure that the data maintains its original format while only the values are changed, the generalized categories are further mapped to corresponding anonymization functions.
 
-As part of this work, we performed the mapping of three widely-used SIEM meta keys to more general categories. The mapping is based on the contents of **Table \ref{rsa}** for **NetWitness XDR** and **QRadar**, and **Table \ref{el}** for **Elastic Stack**. These tables provide an overview of meta key categorization, including a brief description of each data category and the associated risk.
+As part of this work, we performed the mapping of three widely-used SIEM meta keys to more general categories. These tables provide an overview of meta key categorization, including a brief description of each data category and the associated risk.
 
 
-**Table: Selected meta keys for anonymization from NetWitness XDR and QRadar.**
+**Table: Selected meta keys for anonymization from NetWitness XDR.**
 
 | NetWitness XDR Meta Key  | QRadar Meta Key        | Description      |
 |--------------------------|------------------------|------------------|
