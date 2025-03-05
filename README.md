@@ -56,8 +56,29 @@ To ensure that the data maintains its original format while only the values are 
 
 As part of this work, we performed the mapping of three widely-used SIEM meta keys to more general categories. The mapping is based on the contents of **Table \ref{rsa}** for **NetWitness XDR** and **QRadar**, and **Table \ref{el}** for **Elastic Stack**. These tables provide an overview of meta key categorization, including a brief description of each data category and the associated risk.
 
-In the future, the tool can be extended to support more popular SIEM systems. However, this will require a similar category mapping process. Even more exciting results could be achieved by training an artificial intelligence model to recognize newly defined meta keys based on the existing list.
 
+**Table: Selected meta keys for anonymization from NetWitness XDR and QRadar.**
+
+| NetWitness XDR Meta Key  | QRadar Meta Key        | Description      |
+|--------------------------|------------------------|------------------|
+| `ad.domain.dst`           | `device.ip`            | Source IP address |
+| `ad.domain.src`           | `device.ipv6`          | Destination IP address |
+| `ad.username.dst`         | `device.name`          | Hostname         |
+| `ad.username.src`         | `domain.dst`           | Destination domain |
+| `alias.host`              | `domain.src`           | Source domain    |
+| `alias.ip`                | `email`                | Email address    |
+| `alias.ipv6`              | `email.dst`            | Destination email address |
+| `alias.mac`               | `email.src`            | Source email address |
+| `city.dst`                | `eth.dst`              | Destination Ethernet address |
+| `city.src`                | `eth.src`              | Source Ethernet address |
+| `country.dst`             | `fullname`             | Full name        |
+| `country.src`             | `ip.addr`              | IP address       |
+| `device.host`             | `ip.dst`               | Destination IP address |
+| `username`                | `usr.src`              | Source username  |
+
+
+
+In the future, the tool can be extended to support more popular SIEM systems. However, this will require a similar category mapping process. Even more exciting results could be achieved by training an artificial intelligence model to recognize newly defined meta keys based on the existing list.
 
 
 ## Future Prospects
