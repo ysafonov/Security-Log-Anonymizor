@@ -59,12 +59,12 @@ As part of this work, we performed the mapping of three widely-used SIEM meta ke
 
 **Table 1: Selected meta keys for anonymization from `NetWitness XDR`, `IBM QRadar` and `Elastic Stack`.**
 <p align="center">
-    <img src="images/all.jpg" alt="Flowchart diagram of the anonymization tool." width="600"/>
+    <img src="images/all.jpg" alt="Flowchart diagram of the anonymization tool." width="750"/>
 </p>
 
 **Table 2: Selected meta keys for anonymization and their categories.**
 <p align="center">
-    <img src="images/category.jpg" alt="Flowchart diagram of the anonymization tool." width="600"/>
+    <img src="images/category.jpg" alt="Flowchart diagram of the anonymization tool." width="750"/>
 </p>
 
 
