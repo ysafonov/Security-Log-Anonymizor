@@ -33,7 +33,8 @@ In this tool, we focus on anonymizing **10 categories of security log data**, wh
 
 Technical representation of the program workflow is shown below.
 
-![Sensitive Log Data Categories](flow-chart.png)
+<img src="flow-chart.png" alt="Sensitive Log Data Categories" width="500"/>
+
 
 Mentioned categories are detailed in the following table.
 
