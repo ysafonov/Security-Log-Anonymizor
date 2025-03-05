@@ -45,7 +45,9 @@ The code is organized into several Python files for better maintainability, clar
 
 Technical representation of the program workflow is given below.
 
-<img src="flow-chart.png" alt="Sensitive Log Data Categories" width="700"/>
+<div style="text-align: center;">
+    <img src="flow-chart.png" alt="Flowchart diagram of the anonymization tool." width="700"/>
+</div>
 
 
 Mentioned categories are detailed in the following table.
