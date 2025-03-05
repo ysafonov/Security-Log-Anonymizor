@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Single Category Anonymization</title>
+    <!-- MDB icon -->
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section class="text-center text-lg-start">
+      <style>
+        .cascading-right {
+          margin-right: -50px;
+        }
+
+        @media (max-width: 991.98px) {
+          .cascading-right {
+            margin-right: 0;
+          }
+        }
+        .btn-caption {
+        margin-right: -10000px;
+      }
+      </style>
+
+      <div class="container py-4 d-flex justify-content-center align-items-center">
+        <div class="row g-0 align-items-center">
+          <div class="col-lg-6 mb-5 mb-lg-0">
+            <div class="card cascading-right" style="
+              background: hsla(0, 0%, 100%, 0.55);
+              backdrop-filter: blur(30px);
+              ">
+              <div class="card-body p-5 shadow-5 text-center">
+                <h2 class="fw-bold mb-5">Anonymize log file</h2>
+                <div class="container">
+                  <form action="/anonymize/singlecategory" method="POST" enctype="multipart/form-data">
+                    <div class="form-group">
+                      <label for="fileInput">Select log file:</label>
+                      <input type="file" class="form-control-file" id="fileInput" name="file" accept=".log,.json" />
+                    </div>
+                   <div class="form-check d-flex justify-content-center mb-4">
+                <input class="form-check-input me-2" type="checkbox" value="checked" name="checkbox" id="checkbox"  />
+                <label class="form-check-label" for="checkbox">
+                  Empty dictionaries
+                </label>
+              </div>
+                    <button type="submit" class="btn btn-primary mt-3">Upload</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-5 mb-lg-0 d-flex justify-content-center align-items-center">
+            <img src="https://c0.wallpaperflare.com/preview/140/698/423/security-computer-web-virus.jpg" class="w-100 rounded-4 shadow-4" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+ $(function() {
+    $('#form2Example33').on('change', function() {
+      if ($(this).is(':checked')) {
+        empty_dictionaries();
+      }
+    });
+  });
+</script>
