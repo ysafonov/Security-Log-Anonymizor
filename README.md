@@ -59,7 +59,7 @@ As part of this work, we performed the mapping of three widely-used SIEM meta ke
 
 **Table: Selected meta keys for anonymization from NetWitness XDR.**
 
-| **Selected meta keys for anonymization from NetWitness XDR** | | |
+| **Selected meta keys for anonymization from NetWitness XDR** |
 | ---------------------------------------------------------- | --- | --- |
 | `ad.domain.dst` | `device.ip` | `ip.src` |
 | `ad.domain.src` | `device.ipv6` | `ipv6.dst` |
